@@ -15,6 +15,8 @@ COPY . .
 # Set environment variables
 ENV VITE_API_URL=http://143.198.130.213:3000
 
+RUN npm install -g serve
+
 # Build the application
 RUN npm run build
 
