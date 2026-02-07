@@ -22,4 +22,4 @@ RUN npm run build
 EXPOSE 5173
 
 # Start Nginx
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "start"]
