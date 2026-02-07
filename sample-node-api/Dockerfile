@@ -34,9 +34,6 @@ ENV MSMQ_QUEUE=task_queue
 # Copy the rest of the application code to the working directory
 COPY . .
 
-# Build the application
-RUN npm run build
-
 # Expose the application port
 EXPOSE 3000
 
